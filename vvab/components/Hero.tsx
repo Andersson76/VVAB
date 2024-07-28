@@ -14,10 +14,10 @@ export default function Hero() {
   })
   return (
     <div
-      className="h-screen flex flex-col space-y-4 items-center justify-center
+      className="mt-60 flex flex-col space-y-8 items-center justify-center
     text-center overflow-hidden"
     >
-      <h1 className="text-2xl lg:text-6xl font-semibold px-10">
+      <h1 className="text-3xl lg:text-4xl font-semibold px-10">
         <span className="mr-3">{text}</span>
         <Cursor cursorColor="#F7AB0A" />
       </h1>
