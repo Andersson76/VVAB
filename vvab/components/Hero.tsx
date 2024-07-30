@@ -22,11 +22,11 @@ export default function Hero() {
         <Cursor cursorColor="#F7AB0A" />
       </h1>
       <div className="pt-5">
-        <Link href="#about">
-          <button className="heroButton">Om oss</button>
-        </Link>
         <Link href="#contact">
-          <button className="heroButton lg:ml-32 ml-8 mt-40">Kontakta oss</button>
+          <button className="heroButton ">Kontakta oss</button>
+        </Link>
+        <Link href="#about">
+          <button className="heroButton lg:ml-32 ml-8 mt-40">Om oss</button>
         </Link>
       </div>
     </div>
