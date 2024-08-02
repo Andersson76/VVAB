@@ -14,7 +14,7 @@ export default function Hero() {
   })
   return (
     <div
-      className="mt-60 flex flex-col space-y-8 items-center justify-center
+      className="h-screen flex flex-col space-y-6 items-center justify-center
     text-center overflow-hidden"
     >
       <h1 className="text-3xl lg:text-4xl font-semibold px-10 text-white-500">
