@@ -14,14 +14,16 @@ export default function Hero() {
   })
   return (
     <div
-      className="h-screen flex flex-col space-y-6 items-center justify-center
-    text-center overflow-hidden"
+      className="h-screen flex relative flex-col text-center md:text-left md:flex-row
+    max-w-7xl px-10 justify-center mx-auto items-center"
     >
-      <h1 className="text-3xl lg:text-4xl font-semibold px-10 text-white-500">
-        <span className="mr-3">{text}</span>
-        <Cursor cursorColor="#F7AB0A" />
-      </h1>
-      <div className="pt-5">
+      <div className='mt-40 mb-32'>
+        <h1 className="text-3xl lg:text-4xl font-semibold px-10 text-gray-200">
+          <span className="mr-3">{text}</span>
+          <Cursor cursorColor="#F7AB0A" />
+        </h1>
+      </div>
+      <div>
         <Link href="#contact">
           <button className="heroButton ">Kontakta oss</button>
         </Link>
